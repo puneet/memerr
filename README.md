@@ -8,13 +8,13 @@ I have tested the code on two ubuntu 14.04 64-bit machines and on both
 the machines I get:
 
 
-$ make
-/home/puneet/local/dmd-2.069.2/linux/bin64/rdmd foo.d
-Start frop from D
-Successfully completed loop....
-./main
-Start frop from C
-0 -> @�+----------------
+	$ make
+	/home/puneet/local/dmd-2.069.2/linux/bin64/rdmd foo.d
+	Start frop from D
+	Successfully completed loop....
+	./main
+	Start frop from C
+	0 -> @�+----------------
 
 
 The text on the last line varies from one run to another. If you take
